@@ -1,0 +1,98 @@
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .navbar-brand img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  /* Navigation menu styles */
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .nav-link {
+    color: #fff;
+    margin-right: 15px;
+    font-weight: 500;
+  }
+  
+  /* Main section styles */
+  .head {
+    background-color: #007BFF;
+    color: #fff;
+    background-image: url('../images/employee-service.jpg');
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .head h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  /* Form styles */
+  .container {
+    padding: 20px;
+  }
+  
+  .form-horizontal {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-horizontal h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .control-label {
+    font-weight: 500;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .submit-message {
+    text-align: center;
+    font-weight: 500;
+    margin-top: 20px;
+  }
