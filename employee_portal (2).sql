@@ -41,10 +41,12 @@ CREATE TABLE IF NOT EXISTS `employee_portal` (
 -- Dumping data for table `employee_portal`
 --
 
-INSERT INTO `employee_portal` (`fname`, `lname`, `age`, `email`, `hoursworked`, `department`) VALUES
-('Muskan', 'Dhingra', 20, 'muskanhub01@gmail.com', 20, 'Management'),
-('Muskan', 'Dhingra', 20, 'muskanhub01@gmail.com', 20, 'Management'),
-('Muskan', 'Dhingra', 25, 'muskanhub01@gmail.com', 15, 'Management');
+INSERT INTO `employee_portal` (`fname`, `lname`, `age`, `department`, `hoursworked`, `email`) VALUES
+('Muskan', 'Dhingra', 20, 'Management', 20, 'muskanhub01@gmail.com'),
+('Kishore', 'Mahajan', 25, 'Management', 15, 'kishore01@gmail.com'),
+('Rajan', 'Malhotra', 20, 'IT', 29, 'rajm546@gmail.com'),
+('Prakash', 'Gada', 25, 'HR', 34, 'gada676@gmail.com'),
+('Maneesha', 'Sinha', 24, 'HR', 23, 'maneesha@gmail.com');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
