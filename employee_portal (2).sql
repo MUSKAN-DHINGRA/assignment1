@@ -44,7 +44,7 @@ CREATE TABLE IF NOT EXISTS `employee_portal` (
 INSERT INTO `employee_portal` (`fname`, `lname`, `age`, `email`, `hoursworked`, `department`) VALUES
 ('Muskan', 'Dhingra', 20, 'muskanhub01@gmail.com', 20, 'Management'),
 ('Muskan', 'Dhingra', 20, 'muskanhub01@gmail.com', 20, 'Management'),
-('Muskan', 'Dhingra', 0, 'muskanhub01@gmail.com', 15, 'Management');
+('Muskan', 'Dhingra', 25, 'muskanhub01@gmail.com', 15, 'Management');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
